@@ -5,6 +5,7 @@ certifi==2024.2.2
 click==8.1.7
 dnspython==2.6.1
 email_validator==2.1.1
+Faker==25.2.0
 fastapi==0.111.0
 fastapi-cli==0.0.3
 greenlet==3.0.3

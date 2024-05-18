@@ -17,8 +17,13 @@ class ContactCreate(ContactBase):
     pass
 
 
-class ContactUpdate(ContactBase):
-    pass
+class ContactUpdate(BaseModel):
+    name: Optional[str] = Field(max_length=30, default=None)
+    surname: Optional[str] = Field(max_length=30, default=None)
+    email: Optional[EmailStr] = None
+    phone: Optional[str] = Field(max_length=20, default=None)
+    birth_date: Optional[datetime] = None
+    additional_data: Optional[str] = Field(max_length=150, default=None)
 
 
 class ContactResponse(ContactBase):
