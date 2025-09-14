@@ -14,7 +14,7 @@
 
 ## Task
 
-The purpose of this homework is to create an REST API for storing and managing contacts. The API should be built using FastAPI infrastructure and use SQLALchemy to manage the database.
+The purpose of this project is to create an REST API for storing and managing contacts. The API should be built using FastAPI infrastructure and use SQLALchemy to manage the database.
 
 -[x] Contacts should be stored in the database and contain the following information:
 _ Name
